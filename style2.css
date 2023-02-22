@@ -40,6 +40,7 @@ h1 {
     position: relative;
     top: 250px;
     border: 1px solid gainsboro;
+    border-radius: 10px;
 }
 
 .logo {
@@ -109,7 +110,7 @@ article {
 
 .tabla {
     width: 800px;
-    height: 550px;
+    height: 500px;
     margin-bottom: 150px;
 }
 
@@ -249,8 +250,12 @@ input {
 }
 
 .labelLeft {
-    padding-right: 100px;
+    padding-right: 10px;
 
+}
+
+.labelcenter{
+    padding-left: 10px;
 }
 fieldset {
     border: none;
@@ -259,4 +264,14 @@ fieldset {
 
 .permission {
     margin-top: 15px;
+}
+
+.send {
+    font-size: 25px;
+    border: 2px solid gainsboro;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    position: relative;
+    margin-left: 80%;
 }
